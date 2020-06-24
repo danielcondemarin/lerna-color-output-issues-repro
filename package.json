@@ -1,0 +1,17 @@
+{
+  "name": "lerna-cli-output-color-issues",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "husky": {
+    "hooks": {
+      "pre-push": "lerna run test"
+    }
+  },
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "lerna": "^3.22.1"
+  }
+}
